@@ -1,0 +1,13 @@
+import java.lang.*;
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {  
+        Scanner sc = new Scanner(System.in);
+        int number , i;
+        number = sc.nextInt();
+        for(i=1;i<=number;i++) {
+            System.out.print( "odd numbers from 1 to " +i+" ");
+        }  
+    }
+}
