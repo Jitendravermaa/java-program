@@ -1,0 +1,14 @@
+import java.lang.*;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        // YOUR CDE GOES HERE
+        Scanner Sc = new Scanner(System.in);
+        int a =Sc.nextInt();
+        int b =Sc.nextInt();
+        System.out.print(a);
+        System.out.print(b);
+        
+    }
+}
